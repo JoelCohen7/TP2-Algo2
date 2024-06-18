@@ -1,8 +1,8 @@
 package aed;
 
-public class SistemaSIU { //Anda esto?
+public class SistemaSIU { //Anda esto? vol 2
 
-    private Trie<Integer> alumnos;
+    private Trie<Integer> alumnos; 
     private Trie<Trie<Materia>> carreras;
 
     enum CargoDocente{
