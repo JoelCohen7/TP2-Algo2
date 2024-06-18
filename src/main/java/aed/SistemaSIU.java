@@ -1,6 +1,6 @@
 package aed;
 
-public class SistemaSIU {
+public class SistemaSIU { //Anda esto?
 
     private Trie<Integer> alumnos;
     private Trie<Trie<Materia>> carreras;
@@ -12,7 +12,7 @@ public class SistemaSIU {
         PROF
     }
 
-    public SistemaSIU(InfoMateria[] infoMaterias, String[] libretasUniversitarias){
+    public SistemaSIU(InfoMateria[] infoMaterias, String[] libretasUniversitarias){ 
 
         this.alumnos = new Trie<>();
         this.carreras = new Trie<>();
